@@ -1,6 +1,6 @@
-package com.java.wrokshope.tempreaturedata.beans.floor;
+ package com.java.wrokshope.tempreaturedata.beans.floor;
 
-public class floor {
+public class Floor {
     private String name;
     private int number;
 
