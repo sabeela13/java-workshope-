@@ -4,5 +4,5 @@ public class arrey{
         for(int mark:marks){
             System.out.println(mark);
         }
-    }
+    }  
 }
