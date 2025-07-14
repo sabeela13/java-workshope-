@@ -19,8 +19,11 @@ public class OrganizationDA0 {
                     CONTACT_NUMBER VARCHAR(100),
                     REGISTRATION_NO INT,
                     )
-                    """;)
+                    """);{
         }
+    }catch (SQLException sqlException){
+        System.out.println("Error creating table"+sqlException);
     }
 
-}
+    }
+} 
